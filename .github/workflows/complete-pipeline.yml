@@ -42,7 +42,7 @@ jobs:
     steps:
       - name: Checkout repository code
         uses: actions/checkout@v2
-
+        
       - name: Test
         run: .github/workflows/scripts/test.sh
 
